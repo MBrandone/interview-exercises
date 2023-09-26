@@ -24,6 +24,7 @@ app.get("/brands", async (req, res, next) => {
     res.json(vehicules);
 });
 
+// Vu
 // magic strings => mettre dans des variables
 // ligne 2, mettre les require en premier puis instancier
 // next est pas utilisé donc on peut le supprimer
@@ -32,11 +33,14 @@ app.get("/brands", async (req, res, next) => {
 // .catch a ajouter
 // Ajouter await sinon on renvoie .json d'une promesse
 
-// utiliser ORM
-// Archi appli http vs BDD
+// J'aurais du voir
 // variable client pas utilisé
-// utiliser ES6
 // back tick pas présente
 // Pas de LIMIT sur la requête
-// naming => brands vs models vs vehicles
 // process.env !
+
+// En plus
+// utiliser ORM
+// Archi appli http vs BDD
+// utiliser ES6
+// naming => brands vs models vs vehicles
